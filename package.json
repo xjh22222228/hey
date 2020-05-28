@@ -1,0 +1,29 @@
+{
+  "name": "npm-hey",
+  "version": "1.0.7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjh22222228/hey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xjh22222228/hey/issues"
+  },
+  "homepage": "https://github.com/xjh22222228/hey#readme",
+  "author": "xiejiahe",
+  "license": "MIT",
+  "description": "hey!",
+  "main": "index.js",
+  "dependencies": {
+    "figlet": "^1.4.0",
+    "fs-extra": "^9.0.0",
+    "getmac": "^5.5.0",
+    "public-ip": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=14.2.0"
+  },
+  "hey": [
+    "darwin",
+    "ac:de:48:00:11:21"
+  ]
+}
