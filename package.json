@@ -1,6 +1,6 @@
 {
   "name": "npm-hey",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xjh22222228/hey.git"
@@ -18,9 +18,6 @@
     "fs-extra": "^9.0.0",
     "getmac": "^5.5.0",
     "public-ip": "^4.0.1"
-  },
-  "engines": {
-    "node": ">=14.2.0"
   },
   "hey": [
     "darwin",
